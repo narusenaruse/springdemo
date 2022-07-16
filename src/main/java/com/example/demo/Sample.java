@@ -4,7 +4,7 @@ public class Sample {
 	public int sum(){
 
 		int num;
-		num = 1 + 2;
+		num = 1 + 10;
 
 		return num;
 	}
