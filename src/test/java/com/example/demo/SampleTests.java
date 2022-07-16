@@ -17,12 +17,22 @@ class SampleTests {
 	}
 
 	@Test
-	void test() {
+	void numTest() {
 		int actual;
 		int expected;
 		
 		actual = sample.sum();
 		expected = 3;
+		assertEquals(actual, expected);
+	}
+	
+	@Test
+	void mojiTest() {
+		String actual;
+		String expected;
+		
+		actual = sample.moji();
+		expected = "Hello World!";
 		assertEquals(actual, expected);
 	}
 }
