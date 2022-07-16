@@ -8,9 +8,4 @@ public class Sample {
 		
 		return num;
 	}
-	
-	public String moji() {
-		String str = "Hello World!";
-		return str;
-	}
 }
